@@ -40,7 +40,17 @@ LeGS uses its separate Python 3.9 / PyTorch 2.8.0+cu128 environment; Shorter-GS
 uses Python 3.10 / PyTorch 2.0.1+cu117. Do not merge the hosts into one environment:
 their rasterizers use overlapping Python import names.
 
-For a new primary environment, with Conda on PATH:
+The recorded CUDA runtime and matching build toolkit differ by host:
+
+| Environments | CUDA |
+| --- | --- |
+| `fastgs`, `factorgrad-vanilla`, `factorgrad-mini`, `factorgrad-speedy`, `factorgrad-taming`, `factorgrad-dash` | 11.6 |
+| `LeGS` | 12.8 |
+| `factorgrad-shorter` | 11.7 |
+
+For a new primary environment, run the following from the `code/` directory
+(the directory containing this README), with Conda on PATH and a matching
+CUDA toolkit with `nvcc` installed:
 
 ```bash
 export CUDA_HOME=/path/to/cuda-11.6
@@ -51,6 +61,8 @@ bash scripts/setup_environment.sh fastgs
 The script refuses to overwrite an existing environment. Other valid names
 are `factorgrad-vanilla`, `factorgrad-mini`, `factorgrad-speedy`,
 `factorgrad-taming`, `factorgrad-dash`, `LeGS`, and `factorgrad-shorter`.
+For `LeGS` or `factorgrad-shorter`, set `CUDA_HOME` and `PATH` to the matching
+12.8 or 11.7 toolkit before building that environment.
 Dependency installation and first-time pretrained metric-network loading
 require network access or populated local package/model caches. Neither full
 datasets nor system CUDA toolkits are embedded in the submission ZIP.

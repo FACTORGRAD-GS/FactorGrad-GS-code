@@ -23,6 +23,34 @@ The omitted `logs/` and `visualization/` folders remain in the full
 supplementary archive. Selected visual comparisons appear on the separate
 project page.
 
+## CUDA and Environment Setup
+
+The primary experiments used Linux, an NVIDIA RTX 3090, Python 3.7.13,
+PyTorch 1.12.1 and CUDA 11.6. The exact Linux Conda package list is in
+[`code/environments/fastgs/conda-explicit.txt`](code/environments/fastgs/conda-explicit.txt),
+with pip versions in
+[`requirements.txt`](code/environments/fastgs/requirements.txt) and the
+recorded version report in
+[`versions.json`](code/environments/fastgs/versions.json).
+Install a CUDA 11.6 toolkit with `nvcc` separately, then run these commands
+from the repository root with Conda on `PATH`:
+
+```bash
+export CUDA_HOME=/path/to/cuda-11.6
+export PATH="$CUDA_HOME/bin:$PATH"
+bash code/scripts/setup_environment.sh fastgs
+```
+
+The script creates the `fastgs` Conda environment and builds the included CUDA
+extensions. Use the same Conda installation as `--conda-root` in the training
+and evaluation commands below. Other hosts require separate environments;
+LeGS uses CUDA 12.8 and `factorgrad-shorter` uses CUDA 11.7. See
+[`code/README.md`](code/README.md) and
+[`code/environments/`](code/environments/) for their locks and build steps.
+The system CUDA toolkits, datasets and external SkipGS/Mini-Splatting source
+are not bundled. A clean installation of all eight environments has not been
+verified during packaging.
+
 ## Read or Recompute Results
 
 From the unpacked directory, this command regenerates the reported metric
