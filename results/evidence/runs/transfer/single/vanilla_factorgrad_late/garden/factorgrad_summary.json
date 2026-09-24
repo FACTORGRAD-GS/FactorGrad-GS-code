@@ -1,0 +1,33 @@
+{
+  "channel_counts": {
+    "applied:0": 3163,
+    "applied:1": 3163,
+    "applied:2": 3163
+  },
+  "enabled": true,
+  "freeze_iteration": 15768,
+  "frozen_probability": 0.6666666666666666,
+  "method": "FactorGrad-GS",
+  "mode_counts": {
+    "factorized_channel": 9489,
+    "full_rgb": 15767,
+    "l1_only": 4744
+  },
+  "outcome_counts": {
+    "backward": 30000,
+    "l1_only_backward": 4744
+  },
+  "phase_counts": {
+    "topology_active": 15767,
+    "topology_frozen": 14233
+  },
+  "realized_frozen_probability": 0.6666900864188857,
+  "seed": 3407,
+  "selected_applied_updates": 9489,
+  "stabilization_steps": 768,
+  "time_ratio": [
+    2,
+    3
+  ],
+  "topology_end_iteration": 15000
+}

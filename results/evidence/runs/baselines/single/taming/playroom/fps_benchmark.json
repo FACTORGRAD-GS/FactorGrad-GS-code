@@ -1,0 +1,12 @@
+{
+  "host": "taming",
+  "iteration": 30000,
+  "test_views": 29,
+  "warmup_frames": 10,
+  "repeats": 3,
+  "timed_frames": 87,
+  "elapsed_ms": 245.31280517578125,
+  "milliseconds_per_frame": 2.8196874158135774,
+  "fps": 354.6492403348423,
+  "gaussians": 184847
+}

@@ -1,0 +1,1 @@
+env WANDB_MODE=disabled conda run -n LeGS --no-capture-output python train.py -s <LOCAL_PATH> -m <LOCAL_PATH> --eval --densification_interval 100 --optimizer_type default --highfeature_lr 0.042 --grad_abs_thresh 0.0001 --mult 0.7 --quiet --test_iterations -1 --save_iterations 30000 --checkpoint_iterations -1 

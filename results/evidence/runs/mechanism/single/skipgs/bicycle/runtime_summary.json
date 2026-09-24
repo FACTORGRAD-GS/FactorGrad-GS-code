@@ -1,0 +1,16 @@
+{
+  "factorgrad_channel_sampling": true,
+  "factorgrad_enabled": false,
+  "factorgrad_importance_correction": true,
+  "factorgrad_schedule": "late",
+  "factorgrad_temporal_sampling": true,
+  "factorgrad_topology_protection": true,
+  "gaussians": 538426,
+  "peak_allocated_bytes": 5755175936,
+  "peak_reserved_bytes": 6668943360,
+  "post_densification_end_time_seconds": 85.07441867080668,
+  "pre_densification_end_time_seconds": 107.62249300166995,
+  "skipgs_enabled": true,
+  "timing_boundary_iteration": 15000,
+  "training_time_seconds": 192.69691167247706
+}

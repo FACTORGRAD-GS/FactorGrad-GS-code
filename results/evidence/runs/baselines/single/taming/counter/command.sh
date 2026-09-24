@@ -1,0 +1,1 @@
+conda run -n factorgrad-taming --no-capture-output python train.py -s <LOCAL_PATH> -m <LOCAL_PATH> -i images_2 --quiet --eval --test_iterations -1 --save_iterations 30000 --checkpoint_iterations -1 --optimizer_type default --densification_interval 500 --mode multiplier --budget 2 

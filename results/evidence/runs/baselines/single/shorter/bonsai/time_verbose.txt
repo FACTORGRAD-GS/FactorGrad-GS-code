@@ -1,0 +1,23 @@
+	Command being timed: "conda run -n factorgrad-shorter --no-capture-output python example_train.py -s <LOCAL_PATH> -m <LOCAL_PATH> -i images_2 --eval --sh_degree 3 --max_n_gaussian 1252367 --scale_reset_factor 0.2 --lambda_entropy 0.015"
+	User time (seconds): 140.28
+	System time (seconds): 3.04
+	Percent of CPU this job got: 101%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:21.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7270704
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1391186
+	Voluntary context switches: 62078
+	Involuntary context switches: 2058
+	Swaps: 0
+	File system inputs: 144760
+	File system outputs: 606728
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

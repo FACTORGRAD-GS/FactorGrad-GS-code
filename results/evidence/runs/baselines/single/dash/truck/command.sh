@@ -1,0 +1,1 @@
+conda run -n factorgrad-dash --no-capture-output python train_dash.py -s <LOCAL_PATH> -m <LOCAL_PATH> --disable_viewer --eval --quiet --test_iterations -1 --save_iterations 30000 --checkpoint_iterations -1 --optimizer_type sparse_adam --densify_mode freq --resolution_mode freq --densify_until_iter 27000 

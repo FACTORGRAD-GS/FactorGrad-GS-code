@@ -1,0 +1,11 @@
+{
+  "host": "ShorterSplatting",
+  "test_views": 33,
+  "warmup_frames": 10,
+  "repeats": 3,
+  "timed_frames": 99,
+  "elapsed_ms": 340.4419250488281,
+  "milliseconds_per_frame": 3.4388073237255368,
+  "fps": 290.79849664755847,
+  "gaussians": 25575
+}

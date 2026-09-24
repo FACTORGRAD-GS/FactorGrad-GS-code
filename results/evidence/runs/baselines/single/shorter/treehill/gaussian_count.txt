@@ -1,0 +1,3 @@
+Final Gaussian count: 3770240
+Total epochs: 150
+Final iteration: 30000

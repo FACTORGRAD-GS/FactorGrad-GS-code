@@ -1,0 +1,2 @@
+Training wall time: 229.29 seconds
+Training wall time: 3.82 minutes

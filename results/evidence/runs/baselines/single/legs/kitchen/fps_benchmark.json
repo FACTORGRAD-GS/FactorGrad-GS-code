@@ -1,0 +1,13 @@
+{
+  "host": "LeGS",
+  "iteration": 30000,
+  "test_views": 35,
+  "warmup_frames": 10,
+  "repeats": 3,
+  "timed_frames": 105,
+  "elapsed_ms": 437.9576416015625,
+  "milliseconds_per_frame": 4.171025158110119,
+  "fps": 239.7492132253399,
+  "gaussians": 1433023,
+  "mult": 0.5
+}

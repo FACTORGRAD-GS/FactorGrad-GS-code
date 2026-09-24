@@ -1,0 +1,7 @@
+{
+  "python": "3.9.25 (main, Nov  3 2025, 22:33:05) \n[GCC 11.2.0]",
+  "torch": "2.8.0+cu128",
+  "cuda_runtime": "12.8",
+  "cudnn": 91002,
+  "device": "NVIDIA GeForce RTX 3090"
+}

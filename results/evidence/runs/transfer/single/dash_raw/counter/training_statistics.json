@@ -1,0 +1,9 @@
+{
+  "total": {
+    "time_s": 305.27114258940156,
+    "percentage": 100.0
+  },
+  "GS_number": 787692,
+  "peak_gpu_memory_allocated_mb": 8125.8974609375,
+  "peak_gpu_memory_reserved_mb": 15632.0
+}

@@ -1,0 +1,19 @@
+# Keep datasets, model artifacts, local logs, and private work outside Git.
+/artifacts/
+/local_private/
+/datasets/
+/models/
+/logs/
+/visualization/
+/code/sources/primary/skipgs-plugin
+/code/sources/primary_r1/skipgs-plugin
+/code/sources/mechanism/skipgs-plugin
+/code/sources/baselines/mini
+**/__pycache__/
+*.py[cod]
+*.ply
+*.ckpt
+*.pth
+*.pt
+.DS_Store
+Thumbs.db

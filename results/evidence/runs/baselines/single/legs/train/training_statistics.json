@@ -1,0 +1,46 @@
+{
+    "camera_picking": {
+        "time_s": 0.6600545895715477,
+        "percentage": 0.13139407579413864
+    },
+    "render": {
+        "time_s": 108.89047883427143,
+        "percentage": 21.67633413245045
+    },
+    "loss_compute": {
+        "time_s": 10.801421540737152,
+        "percentage": 2.150190034326272
+    },
+    "backward": {
+        "time_s": 245.3913106764555,
+        "percentage": 48.84893610871588
+    },
+    "log_and_test": {
+        "time_s": 31.669225335411728,
+        "percentage": 6.304249163336347
+    },
+    "densify_and_prune": {
+        "time_s": 41.62275560760498,
+        "percentage": 8.285653325456863
+    },
+    "reward_compute": {
+        "time_s": 16.4088694190979,
+        "percentage": 3.2664392706497
+    },
+    "rl_learn": {
+        "time_s": 19.98795460510254,
+        "percentage": 3.978911538297794
+    },
+    "optimizer_step": {
+        "time_s": 54.120017219421456,
+        "percentage": 10.773426557225594
+    },
+    "total": {
+        "time_s": 502.34729806668497,
+        "percentage": 100.0
+    },
+    "GS_number": 1458762,
+    "peak_gpu_memory_mb": 9088.51953125,
+    "peak_gpu_memory_allocated_mb": 9088.51953125,
+    "peak_gpu_memory_reserved_mb": 11896.0
+}

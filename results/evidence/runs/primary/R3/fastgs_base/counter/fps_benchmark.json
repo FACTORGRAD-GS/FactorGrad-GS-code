@@ -1,0 +1,13 @@
+{
+  "host": "FastGS+SkipGS",
+  "iteration": 30000,
+  "test_views": 30,
+  "warmup_frames": 10,
+  "repeats": 3,
+  "timed_frames": 90,
+  "elapsed_ms": 155.54258728027344,
+  "milliseconds_per_frame": 1.728250969780816,
+  "fps": 578.6196666372039,
+  "gaussians": 208348,
+  "mult": 0.5
+}

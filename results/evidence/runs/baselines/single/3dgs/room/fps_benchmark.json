@@ -1,0 +1,12 @@
+{
+  "host": "3dgs",
+  "iteration": 30000,
+  "test_views": 39,
+  "warmup_frames": 10,
+  "repeats": 3,
+  "timed_frames": 117,
+  "elapsed_ms": 1001.178955078125,
+  "milliseconds_per_frame": 8.557085086137821,
+  "fps": 116.86222468676455,
+  "gaussians": 1297788
+}

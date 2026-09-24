@@ -1,0 +1,1 @@
+conda run -n factorgrad-vanilla --no-capture-output python train.py -s <LOCAL_PATH> -m <LOCAL_PATH> -i images_2 --eval --resolution -1 --iterations 30000 --test_iterations 999999 --save_iterations 30000 --checkpoint_iterations 999999 --disable_viewer --quiet 

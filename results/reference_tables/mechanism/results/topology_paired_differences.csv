@@ -1,0 +1,5 @@
+scene,skipgs_final_gaussians,factorgrad_final_gaussians,delta_final_gaussians,skipgs_clone_parents,factorgrad_clone_parents,delta_clone_parents,skipgs_split_parents,factorgrad_split_parents,delta_split_parents,skipgs_split_children,factorgrad_split_children,delta_split_children,skipgs_prune_candidates,factorgrad_prune_candidates,delta_prune_candidates,skipgs_prune_applied,factorgrad_prune_applied,delta_prune_applied
+bicycle,538426,537339,-1087,9805,9928,123,679430,687158,7728,1358860,1374316,15456,1110464,1128064,17600,205084,214022,8938
+kitchen,377728,379779,2051,7924,8399,475,267592,285044,17452,535184,570088,34904,951264,1032670,81406,139155,155031,15876
+train,229999,222743,-7256,205747,207952,2205,49401,52056,2655,98802,104112,5310,1249660,1290380,40720,207835,219951,12116
+drjohnson,247894,244949,-2945,266526,273525,6999,49556,53968,4412,99112,107936,8824,712915,773819,60904,149049,163405,14356

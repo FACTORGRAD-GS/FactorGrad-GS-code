@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "factorgrad-gs"
+version = "0.1.0"
+description = "Monte Carlo factorized structural backpropagation for 3D Gaussian Splatting"
+requires-python = ">=3.7"
+dependencies = ["torch"]
+
+[tool.setuptools]
+packages = ["factorgrad"]
+

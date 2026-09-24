@@ -1,0 +1,1 @@
+<LOCAL_PATH> run -n factorgrad-shorter --no-capture-output python example_train.py -s <LOCAL_PATH> -i images_4 -m <LOCAL_PATH> --eval --sh_degree 3 --iterations 30000 --iterations_per_epoch 200 --max_n_gaussian 4867429 --scale_reset_factor 0.2 --lambda_entropy 0.015 --seed 3407 

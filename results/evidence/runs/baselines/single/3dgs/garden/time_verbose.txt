@@ -1,0 +1,23 @@
+	Command being timed: "conda run -n factorgrad-vanilla --no-capture-output python train.py -s <LOCAL_PATH> -m <LOCAL_PATH> -i images_4 --eval --resolution -1 --iterations 30000 --test_iterations 999999 --save_iterations 30000 --checkpoint_iterations 999999 --disable_viewer --quiet"
+	User time (seconds): 1812.39
+	System time (seconds): 7.17
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:11.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16204048
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 3726686
+	Voluntary context switches: 525572
+	Involuntary context switches: 16723
+	Swaps: 0
+	File system inputs: 14200
+	File system outputs: 1996872
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,12 @@
+{
+  "host": "DashGaussian",
+  "iteration": 30000,
+  "test_views": 30,
+  "warmup_frames": 10,
+  "repeats": 3,
+  "timed_frames": 90,
+  "elapsed_ms": 667.9952392578125,
+  "milliseconds_per_frame": 7.422169325086806,
+  "fps": 134.73149913462862,
+  "gaussians": 790768
+}

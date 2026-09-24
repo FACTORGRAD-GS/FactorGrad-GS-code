@@ -1,0 +1,1 @@
+Namespace(sh_degree=3, source_path='<LOCAL_PATH>', model_path='<LOCAL_PATH>', images='images_2', resolution=-1, white_background=False, data_device='cuda', eval=True)

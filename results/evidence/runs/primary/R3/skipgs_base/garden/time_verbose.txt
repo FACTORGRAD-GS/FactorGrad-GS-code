@@ -1,0 +1,23 @@
+	Command being timed: "conda run -n fastgs --no-capture-output python train.py -s <LOCAL_PATH> -m <LOCAL_PATH> -i images --eval --quiet --iterations 30000 --test_iterations -1 --save_iterations 30000 --checkpoint_iterations -1 --optimizer_type default --highfeature_lr 0.02 --loss_thresh 0.06 --grad_abs_thresh 0.0008 --densification_interval 500 --skipgs_enable"
+	User time (seconds): 305.18
+	System time (seconds): 6.11
+	Percent of CPU this job got: 103%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:59.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17383260
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5146292
+	Voluntary context switches: 710458
+	Involuntary context switches: 5207
+	Swaps: 0
+	File system inputs: 3406984
+	File system outputs: 393016
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

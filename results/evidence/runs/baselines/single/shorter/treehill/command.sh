@@ -1,0 +1,1 @@
+conda run -n factorgrad-shorter --no-capture-output python example_train.py -s <LOCAL_PATH> -m <LOCAL_PATH> -i images_4 --eval --sh_degree 3 --max_n_gaussian 3770257 --scale_reset_factor 0.2 --lambda_entropy 0.015 

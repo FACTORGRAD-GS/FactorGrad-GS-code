@@ -1,0 +1,1 @@
+env CUDA_VISIBLE_DEVICES=0 WANDB_MODE=disabled conda run -n LeGS --no-capture-output /usr/bin/time -v python <LOCAL_PATH> -s <LOCAL_PATH> -m <LOCAL_PATH> -i images_4 --eval --densification_interval 100 --optimizer_type default --grad_abs_thresh 0.0005 --quiet --test_iterations -1 --save_iterations 30000 --checkpoint_iterations -1 

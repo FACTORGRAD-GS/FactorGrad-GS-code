@@ -1,0 +1,6 @@
+{
+  "factorgrad_enabled": true,
+  "factorgrad_schedule": "full",
+  "gaussians": 1091062,
+  "training_time_seconds": 937.2278388249688
+}

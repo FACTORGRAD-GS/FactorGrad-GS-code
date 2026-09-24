@@ -1,0 +1,34 @@
+{
+  "channel_counts": {},
+  "channel_sampling": true,
+  "early_start_iteration": 3000,
+  "enabled": false,
+  "freeze_iteration": 15768,
+  "frozen_probability": 0.6666666666666666,
+  "method": "FactorGrad-GS",
+  "mode_counts": {
+    "baseline_full": 30000
+  },
+  "outcome_counts": {
+    "backward": 24649,
+    "backward_skipped": 5351
+  },
+  "phase_counts": {
+    "disabled": 30000
+  },
+  "phase_mode_counts": {
+    "disabled:baseline_full": 30000
+  },
+  "realized_frozen_probability": null,
+  "schedule": "late",
+  "seed": 3407,
+  "selected_applied_updates": 0,
+  "stabilization_steps": 768,
+  "temporal_sampling": true,
+  "time_ratio": [
+    2,
+    3
+  ],
+  "topology_end_iteration": 15000,
+  "topology_protection": true
+}

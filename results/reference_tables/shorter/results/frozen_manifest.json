@@ -1,0 +1,43 @@
+{
+  "frozen_at": "2026-08-31T03:09:30+08:00",
+  "protocol": {
+    "gpu": "NVIDIA RTX 3090",
+    "iterations": 30000,
+    "initialization": "independent iteration 1--30K runs",
+    "host": "official Shorter-GS Dash configuration",
+    "seed": 3407,
+    "scene_count": 13,
+    "branch_count": 26,
+    "time_metric": "trainer-reported training time excluding evaluation",
+    "fps_metric": "CUDA-event render-only throughput after 10 warm-up frames and 3 sweeps",
+    "peak_memory_metric": "device memory sampled by nvidia-smi every 0.2 s"
+  },
+  "files": {
+    "per_scene.csv": {
+      "path": "<LOCAL_PATH>",
+      "sha256": "6339e6bbd4e790497c5d5fba2e3fb0ba3436323a395739eea4f788f1eb02dbce"
+    },
+    "per_scene_comparison.csv": {
+      "path": "<LOCAL_PATH>",
+      "sha256": "a8169b88509aaa3f7c7e7fde862a9adec81527df5b86711708e5232f2cede0d3"
+    },
+    "dataset_summary.csv": {
+      "path": "<LOCAL_PATH>",
+      "sha256": "262db04c78cbf4066fda47d8cb888061bc5fb683168473b57a4fa339ade251c4"
+    },
+    "paired_comparison.csv": {
+      "path": "<LOCAL_PATH>",
+      "sha256": "3aca587932807feaf794029dfdcdfc983322eb598a23ced0c3fac7a0e2104cba"
+    },
+    "summary.json": {
+      "path": "<LOCAL_PATH>",
+      "sha256": "6b601af5270339a9a653db23741af230fcb61a71d3ef411561b14eb25eae381a"
+    },
+    "comparison.md": {
+      "path": "<LOCAL_PATH>",
+      "sha256": "aada143273682fb5b9a450a9269a0e33d3460f5a8e20cf3a1983b87f84b05d1a"
+    }
+  },
+  "complete_marker": "2026-08-31T03:07:24+08:00",
+  "per_scene_rows": 26
+}

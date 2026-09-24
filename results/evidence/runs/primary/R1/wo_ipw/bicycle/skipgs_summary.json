@@ -1,0 +1,8 @@
+{
+  "bwd_ratio": 0.5966935537630824,
+  "min_bwd_ratio_final": 0.5966767371601209,
+  "skip_ratio": 0.4033064462369176,
+  "total_bwd": 8951,
+  "total_iter_post": 15001,
+  "total_skip": 6050
+}

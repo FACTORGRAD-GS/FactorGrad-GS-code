@@ -1,0 +1,51 @@
+{
+  "channel_counts": {
+    "applied:0": 5738,
+    "applied:1": 5739,
+    "applied:2": 5739,
+    "discarded:0": 1229,
+    "discarded:1": 1253,
+    "discarded:2": 1279
+  },
+  "channel_sampling": true,
+  "early_start_iteration": 3000,
+  "enabled": true,
+  "freeze_iteration": 16536,
+  "frozen_probability": 0.6666666666666666,
+  "method": "FactorGrad-GS",
+  "mode_counts": {
+    "factorized_channel": 20977,
+    "full_rgb": 4535,
+    "l1_only": 4488
+  },
+  "outcome_counts": {
+    "backward": 23789,
+    "backward_skipped": 6211,
+    "l1_only_backward": 2674
+  },
+  "phase_counts": {
+    "post_topology_stabilization": 1536,
+    "topology_active": 12000,
+    "topology_frozen": 13465,
+    "topology_warmup": 2999
+  },
+  "phase_mode_counts": {
+    "post_topology_stabilization:full_rgb": 1536,
+    "topology_active:factorized_channel": 12000,
+    "topology_frozen:factorized_channel": 8977,
+    "topology_frozen:l1_only": 4488,
+    "topology_warmup:full_rgb": 2999
+  },
+  "realized_frozen_probability": 0.6666914222057185,
+  "schedule": "full",
+  "seed": 3407,
+  "selected_applied_updates": 17216,
+  "stabilization_steps": 1536,
+  "temporal_sampling": true,
+  "time_ratio": [
+    2,
+    3
+  ],
+  "topology_end_iteration": 15000,
+  "topology_protection": true
+}

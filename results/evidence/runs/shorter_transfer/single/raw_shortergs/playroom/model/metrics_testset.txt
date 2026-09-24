@@ -1,0 +1,5 @@
+Scene: <LOCAL_PATH> Testset
+SSIM:  0.9002484
+PSNR:  29.9112720
+LPIPS: 0.2463089
+FPS:   338.2161 (render-only, no warmup)

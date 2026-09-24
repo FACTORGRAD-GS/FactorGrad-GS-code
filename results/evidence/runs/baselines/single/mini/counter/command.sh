@@ -1,0 +1,1 @@
+conda run -n factorgrad-mini --no-capture-output python train.py -s <LOCAL_PATH> -m <LOCAL_PATH> -i images_2 --quiet --eval --test_iterations -1 --save_iterations 30000 --num_depth 3500000 --num_max 4500000 --sampling_factor 0.5 --imp_metric indoor 

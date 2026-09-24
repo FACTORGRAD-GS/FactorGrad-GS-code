@@ -1,0 +1,13 @@
+{
+  "factorgrad_early_start_iteration": 3000,
+  "factorgrad_enabled": false,
+  "factorgrad_importance_correction": true,
+  "factorgrad_probability": 0.6666666666666666,
+  "factorgrad_schedule": "full",
+  "factorgrad_stabilization_steps": 768,
+  "factorgrad_topology_end_iteration": 26000,
+  "gaussians": 2326016,
+  "peak_allocated_bytes": 10206475776,
+  "peak_reserved_bytes": 13262389248,
+  "training_time_seconds": 117.98799204826355
+}

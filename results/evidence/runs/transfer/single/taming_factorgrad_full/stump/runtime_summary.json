@@ -1,0 +1,7 @@
+{
+  "factorgrad_enabled": true,
+  "factorgrad_schedule": "full",
+  "gaussians": 480200,
+  "host": "Taming-3DGS",
+  "training_time_seconds": 267.21236848831177
+}

@@ -1,0 +1,13 @@
+{
+  "factorgrad_channel_sampling": true,
+  "factorgrad_enabled": true,
+  "factorgrad_importance_correction": true,
+  "factorgrad_schedule": "late",
+  "factorgrad_temporal_sampling": true,
+  "factorgrad_topology_protection": true,
+  "gaussians": 253114,
+  "peak_allocated_bytes": 2413304320,
+  "peak_reserved_bytes": 3409969152,
+  "skipgs_enabled": true,
+  "training_time_seconds": 112.11911199334658
+}

@@ -1,0 +1,12 @@
+{
+  "host": "Mini-Splatting",
+  "iteration": 30000,
+  "test_views": 24,
+  "warmup_frames": 10,
+  "repeats": 3,
+  "timed_frames": 72,
+  "elapsed_ms": 160.45555114746094,
+  "milliseconds_per_frame": 2.228549321492513,
+  "fps": 448.72239997375334,
+  "gaussians": 576653
+}

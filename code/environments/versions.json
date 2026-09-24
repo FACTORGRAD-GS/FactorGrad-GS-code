@@ -1,0 +1,58 @@
+{
+  "LeGS": {
+    "python": "3.9.25 (main, Nov  3 2025, 22:33:05) \n[GCC 11.2.0]",
+    "torch": "2.8.0+cu128",
+    "cuda_runtime": "12.8",
+    "cudnn": 91002,
+    "device": "NVIDIA GeForce RTX 3090"
+  },
+  "factorgrad-dash": {
+    "python": "3.7.13 (default, Oct 18 2022, 18:57:03) \n[GCC 11.2.0]",
+    "torch": "1.12.1",
+    "cuda_runtime": "11.6",
+    "cudnn": 8302,
+    "device": "NVIDIA GeForce RTX 3090"
+  },
+  "factorgrad-mini": {
+    "python": "3.7.13 (default, Oct 18 2022, 18:57:03) \n[GCC 11.2.0]",
+    "torch": "1.12.1",
+    "cuda_runtime": "11.6",
+    "cudnn": 8302,
+    "device": "NVIDIA GeForce RTX 3090"
+  },
+  "factorgrad-shorter": {
+    "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+    "torch": "2.0.1+cu117",
+    "cuda_runtime": "11.7",
+    "cudnn": 8500,
+    "device": "NVIDIA GeForce RTX 3090"
+  },
+  "factorgrad-speedy": {
+    "python": "3.7.13 (default, Oct 18 2022, 18:57:03) \n[GCC 11.2.0]",
+    "torch": "1.12.1",
+    "cuda_runtime": "11.6",
+    "cudnn": 8302,
+    "device": "NVIDIA GeForce RTX 3090"
+  },
+  "factorgrad-taming": {
+    "python": "3.7.13 (default, Oct 18 2022, 18:57:03) \n[GCC 11.2.0]",
+    "torch": "1.12.1",
+    "cuda_runtime": "11.6",
+    "cudnn": 8302,
+    "device": "NVIDIA GeForce RTX 3090"
+  },
+  "factorgrad-vanilla": {
+    "python": "3.7.13 (default, Oct 18 2022, 18:57:03) \n[GCC 11.2.0]",
+    "torch": "1.12.1",
+    "cuda_runtime": "11.6",
+    "cudnn": 8302,
+    "device": "NVIDIA GeForce RTX 3090"
+  },
+  "fastgs": {
+    "python": "3.7.13 (default, Oct 18 2022, 18:57:03) \n[GCC 11.2.0]",
+    "torch": "1.12.1",
+    "cuda_runtime": "11.6",
+    "cudnn": 8302,
+    "device": "NVIDIA GeForce RTX 3090"
+  }
+}

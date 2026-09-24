@@ -1,0 +1,1 @@
+conda run -n fastgs --no-capture-output python train.py -s <LOCAL_PATH> -m <LOCAL_PATH> -i images --eval --quiet --iterations 30000 --test_iterations -1 --save_iterations 30000 --checkpoint_iterations -1 --optimizer_type default --grad_abs_thresh 0.0012 --densification_interval 500 --skipgs_enable 

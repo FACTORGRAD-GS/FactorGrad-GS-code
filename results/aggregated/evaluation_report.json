@@ -1,0 +1,6 @@
+{
+  "action": "recorded",
+  "runs": 632,
+  "discrepancies": [],
+  "time_note": "wall_time_s in tables is HISTORICAL training process wall time, not a new measurement. Missing timing stays null."
+}

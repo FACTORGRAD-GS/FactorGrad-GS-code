@@ -1,0 +1,52 @@
+[
+  {
+    "base_url": "https://conda.anaconda.org/pypi",
+    "build_number": 0,
+    "build_string": "pypi_0",
+    "channel": "pypi",
+    "dist_name": "diff-gaussian-rasterization-0.0.0-pypi_0",
+    "name": "diff-gaussian-rasterization",
+    "platform": "pypi",
+    "version": "0.0.0"
+  },
+  {
+    "base_url": "https://conda.anaconda.org/pypi",
+    "build_number": 0,
+    "build_string": "pypi_0",
+    "channel": "pypi",
+    "dist_name": "diff-gaussian-rasterization-fastgs-0.0.0-pypi_0",
+    "name": "diff-gaussian-rasterization-fastgs",
+    "platform": "pypi",
+    "version": "0.0.0"
+  },
+  {
+    "base_url": "https://conda.anaconda.org/pypi",
+    "build_number": 0,
+    "build_string": "pypi_0",
+    "channel": "pypi",
+    "dist_name": "fastlanczos-0.0.0-pypi_0",
+    "name": "fastlanczos",
+    "platform": "pypi",
+    "version": "0.0.0"
+  },
+  {
+    "base_url": "https://conda.anaconda.org/pypi",
+    "build_number": 0,
+    "build_string": "pypi_0",
+    "channel": "pypi",
+    "dist_name": "fused-ssim-0.0.0-pypi_0",
+    "name": "fused-ssim",
+    "platform": "pypi",
+    "version": "0.0.0"
+  },
+  {
+    "base_url": "https://conda.anaconda.org/pypi",
+    "build_number": 0,
+    "build_string": "pypi_0",
+    "channel": "pypi",
+    "dist_name": "simple-knn-0.0.0-pypi_0",
+    "name": "simple-knn",
+    "platform": "pypi",
+    "version": "0.0.0"
+  }
+]

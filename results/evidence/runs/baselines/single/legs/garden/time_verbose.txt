@@ -1,0 +1,23 @@
+	Command being timed: "env WANDB_MODE=disabled conda run -n LeGS --no-capture-output python train.py -s <LOCAL_PATH> -m <LOCAL_PATH> -i images_4 --eval --densification_interval 100 --optimizer_type default --highfeature_lr 0.02 --loss_thresh 0.06 --grad_abs_thresh 0.0002 --quiet --test_iterations -1 --save_iterations 30000 --checkpoint_iterations -1"
+	User time (seconds): 966.62
+	System time (seconds): 32.69
+	Percent of CPU this job got: 104%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 15:57.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 13332908
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 8
+	Minor (reclaiming a frame) page faults: 21841213
+	Voluntary context switches: 631087
+	Involuntary context switches: 13774
+	Swaps: 0
+	File system inputs: 387360
+	File system outputs: 1722072
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

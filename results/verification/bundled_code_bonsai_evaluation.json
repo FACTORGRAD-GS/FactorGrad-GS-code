@@ -1,0 +1,25 @@
+{
+  "id": "primary/R3/full/bonsai",
+  "method": "full",
+  "repetition": "R3",
+  "scene": "bonsai",
+  "dataset": "mipnerf360",
+  "metrics": {
+    "psnr": 32.00680923461914,
+    "ssim": 0.9402663707733154,
+    "lpips": 0.19312329590320587
+  },
+  "recorded": {
+    "psnr": 32.00680923461914,
+    "ssim": 0.9402663707733154,
+    "lpips": 0.19312329590320587
+  },
+  "difference": {
+    "psnr": 0.0,
+    "ssim": 0.0,
+    "lpips": 0.0
+  },
+  "matches_recorded_within_tolerance": true,
+  "action": "evaluate",
+  "fps_new_measurement": null
+}

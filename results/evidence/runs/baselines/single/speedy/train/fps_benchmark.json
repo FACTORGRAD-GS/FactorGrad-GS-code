@@ -1,0 +1,12 @@
+{
+  "host": "Speedy-Splat",
+  "iteration": 30000,
+  "test_views": 38,
+  "warmup_frames": 10,
+  "repeats": 3,
+  "timed_frames": 114,
+  "elapsed_ms": 138.67724609375,
+  "milliseconds_per_frame": 1.216467070997807,
+  "fps": 822.0526669741665,
+  "gaussians": 108129
+}

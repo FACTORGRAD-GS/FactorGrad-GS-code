@@ -1,0 +1,9 @@
+method,dataset,scenes,external_wall_time_s
+raw_shortergs,m360,9,1864.41
+shortergs_factorgrad,m360,9,1857.60
+raw_shortergs,tnt,2,404.63
+shortergs_factorgrad,tnt,2,402.27
+raw_shortergs,db,2,278.03
+shortergs_factorgrad,db,2,277.77
+raw_shortergs,all13,13,2547.07
+shortergs_factorgrad,all13,13,2537.64
